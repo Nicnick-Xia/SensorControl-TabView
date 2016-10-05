@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="visible_tab_count" format="integer" />
+    <attr name="tab_textSize" format="dimension" />
+    <attr name="tab_text_highlight_color" format="color" />
+    <attr name="tab_text_default_color" format="color" />
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="visible_tab_count" />
+        <attr name="tab_textSize" />
+        <attr name="tab_text_highlight_color" />
+        <attr name="tab_text_default_color" />
+    </declare-styleable>
+
+</resources>

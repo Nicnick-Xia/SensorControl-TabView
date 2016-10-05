@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:nicnick="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.nicnick.sensortabindicator.MainActivity">
+
+    <com.example.xiazicheng.myviewpager.view.ViewPagerIndicator
+        android:id="@+id/id_indicater"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        nicnick:visible_tab_count="5"
+        nicnick:tab_textSize="14sp">
+    </com.example.xiazicheng.myviewpager.view.ViewPagerIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/id_viewpager">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
